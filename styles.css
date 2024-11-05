@@ -1,12 +1,82 @@
 body {
     background-color: #1A1a1d;
     text-align: center;
+    font-family: Roboto;
 }
 
 h1 {
     color: #950740;
+
 }
 
 h3 {
+    color: whitesmoke;
+}
+
+#headerLogo {
+    color: #6f2232;
+    font-family: monospace;
+    font-size: 20px;
+
+
+}
+
+span {
+    margin: left;
+}
+
+.header {
+    /* background-color: #6f2232; */
+    padding: 5px;
+}
+
+/* .header-site {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.header-site-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .headerButtom {
+    font-family: 'Courier New', Courier, monospace;
+    color: #6f2232;
+} */
+
+
+/* делаем стиль для навигации в шапке */
+.header-site-wrapper {
+    /* первый вариант */
+
+    /* margin: 27px auto 0;
+    position: relative;
+    width: 590px;
+    height: 50px;
+    background-color: #6f2232;
+    border-radius: 8px;
+    font-size: 0; */
+
+    /* второй вариант  */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6f2232;
+}
+
+nav a {
+    display: ;
     color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: #1A1a1d;
 }
