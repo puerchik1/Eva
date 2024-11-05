@@ -1,7 +1,7 @@
 body {
     background-color: #1A1a1d;
     text-align: center;
-    font-family: Roboto;
+    font-family: "Oswald", sans-serif;
 }
 
 h1 {
@@ -74,9 +74,13 @@ nav a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-
+    font-family: "Oswald", sans-serif;
 }
 
 nav a:hover {
     color: #1A1a1d;
+}
+
+.carouselExample {
+    text-align: center;
 }
